@@ -12,7 +12,7 @@ body {
 header {
   font-family: "Great Vibes", "Pacifico", cursive;
   text-align: center;
-  margin: 55px auto;
+  margin: 70px auto;
   font-size: 1.6em;
 }
 .flex-container {
@@ -23,6 +23,9 @@ header {
   justify-content: right;
   align-items: stretch;
   flex-wrap: wrap;
+}
+.flex-container h2 {
+  font-style: italic;
 }
 p {
   text-align: center;
@@ -36,19 +39,21 @@ p {
 }
 .tc-art {
   width: 50%;
-  height: 50%;
   text-align: center;
   background-color: yellowgreen;
 }
 .tc-art img {
   width: 100%;
+  border: 1px solid black;
 }
 .tr-art {
   width: 25%;
   text-align: center;
   background-color: violet;
+  border: 1px solid black;
 }
 .bl-art {
+  text-align: center;
   width: 25%;
   background-color: cadetblue;
   border: 1px solid black;
